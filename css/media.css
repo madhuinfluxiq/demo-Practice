@@ -1,0 +1,109 @@
+@media screen and (max-width: 1700px){
+    .container{ width: 90%; }
+}
+
+@media screen and (max-width: 1600px){
+    .top-banner-wrapper { min-height: 850px; }
+}
+@media screen and (max-width: 1440px){
+  .top-banner-wrapper .logo-wrapper { margin-top: 16px; }
+   .content-text { font-size: 44px; }
+  .container-fluid { background-position: 75% bottom; }
+  .top-banner-wrapper { min-height: 675px; }
+  .title-part h2 { font-size: 42px; }
+  .title-part h2 span { font-size: 46px; }
+  .title-part p { font-size: 18px; }
+  .brand-fixed-wrapper { margin-top: 40px; }
+  .brand-fixed-wrapper .brands-wrapper { margin-top: 16px; }
+  .tv-selling-wrapper { margin-top: 20px; }
+  .servicing-area-wrapper .map-location-wrapper .location-header { font-size: 34px; line-height: 34px; }
+  .servicing-area-wrapper .map-location-wrapper ul li { font-size: 18px; min-width: 140px; }
+  .servicing-area-wrapper .map-location-wrapper p { font-size: 26px; line-height: 26px; }
+  .contact-wrapper .contact-inner-portion { padding-top: 0; }
+  .contact-wrapper .contact-inner-portion .left-portion h2 { font-size: 22px; margin-bottom: 40px;}
+  .contact-wrapper .contact-inner-portion .right-portion { margin-bottom: 40px; }
+  .service-product-wrapper { padding: 32px; }
+}
+@media screen and (max-width: 1300px){
+.top-banner-wrapper .logo-wrapper { margin-top: 30px; }
+ .content-text { font-size: 44px; }
+}
+
+@media screen and (max-width: 1199px){
+.top-banner-wrapper .logo-wrapper { margin-top: 20px; }
+.top-banner-wrapper .call-us-wrapper .image-wrapper { width: 236px; }
+.top-banner-wrapper .call-us-wrapper .contact-number p { font-size: 26px; }
+.top-banner-wrapper .call-us-wrapper .contact-number h1 { font-size: 36px; line-height: 34px; }
+.contact-wrapper .contact-inner-portion { flex-direction: column; padding-top: 60px; }
+.contact-wrapper .contact-inner-portion .left-portion { background-size: 100%;
+ width: 100%; background-position: center top; padding-top: 88%; display: flex; box-sizing: border-box; padding-left:  0px;
+}
+.contact-wrapper .contact-inner-portion .right-portion { width: 100%; margin-bottom: 20px; }
+.contact-wrapper .contact-inner-portion .left-portion h2 {  margin-bottom: 0; background: #fff;
+width: 100%; text-align: center; padding: 20px; border: 1px solid #f76c74;}
+.contact-wrapper .contact-inner-portion .right-portion { margin-top: 30px; }
+}
+@media screen and (max-width: 991px){
+.top-banner-wrapper { min-height: inherit; }
+.container-fluid { background-position: 100% 0%; padding-top: 68%; background-size: 125%; background-color: #e9fed3; }
+.small_logo_wrapper { display: block; text-align: center; padding-top: 16px; }
+.small_logo_wrapper .logo-wrapper{ display: block; width: 100%; margin: auto;}
+.small_logo_wrapper .logo-wrapper img{ max-width: 100%; height: auto; vertical-align: middle;}
+
+.top-banner-wrapper .logo-wrapper { margin: 0px auto; width: 90%; text-align: center; display: none;}
+.top-banner-wrapper .call-us-wrapper { margin:10px auto; margin-bottom: 0;}
+.title-part h2 { font-size: 34px; }
+.title-part h2 span { font-size: 38px; }
+.title-part p { font-size: 18px; }
+.service-product-wrapper .gallery-part { flex-wrap: wrap; }
+.service-product-wrapper .gallery-part .image-box { width: 47%; margin: 1.5%; }
+.tv-selling-wrapper { flex-direction: column-reverse; }
+.tv-selling-wrapper .title-part { width: 100%; }
+.servicing-area-wrapper { flex-direction: column; }
+.servicing-area-wrapper .service-image-wrapper { width: 100%; text-align: center; }
+.servicing-area-wrapper .map-location-wrapper { width: 100%; }
+.servicing-area-wrapper .map-location-wrapper .location-header { font-size: 34px; line-height: 32px; }
+.servicing-area-wrapper .map-location-wrapper .location-header br { display: none; }
+.servicing-area-wrapper .map-location-wrapper p { font-size: 28px; line-height: 28px; }
+.servicing-area-wrapper .map-location-wrapper ul li { min-width: 180px; }
+ .content-text { font-size: 34px; }
+ .service-product-wrapper { padding: 30px; }
+ .service-wraper { padding-bottom: 30px; }
+}
+@media screen and (max-width: 700px){
+.service-product-wrapper { text-align: center; }
+.brand-fixed-wrapper { text-align: center; }
+.tv-selling-wrapper .title-part { width: 100%; text-align: center; }
+.servicing-area-wrapper .map-location-wrapper .location-header{ text-align:center; line-height:inherit ;}
+.servicing-area-wrapper .map-location-wrapper ul li {font-size: 24px; width: 100%; text-align: center; background-position: center top;
+  padding: 0; padding-top: 24px; margin-bottom: 16px;}
+.servicing-area-wrapper .map-location-wrapper p { text-align: center; }
+}
+@media screen and (max-width: 600px){ 
+.top-banner-wrapper .call-us-wrapper .contact-number { margin: 20px 0 40px 20px; width: 100%; }
+.service-product-wrapper { padding: 20px; }
+.top-banner-wrapper .call-us-wrapper .contact-number p { font-size: 22px; }
+.top-banner-wrapper .call-us-wrapper .contact-number h1 { font-size: 30px; line-height: 30px; }
+}
+@media screen and (max-width: 480px){
+.top-banner-wrapper .call-us-wrapper { flex-direction: column; } 
+.service-product-wrapper .gallery-part .image-box { width: 100%; margin: 0; margin-bottom: 20px; }
+.footer-wrapper .linkwra { display: flex; flex-direction: column; }
+.footer-wrapper .linkwra { padding: 10px; }
+.top-banner-wrapper .call-us-wrapper .contact-number { text-align: center; border: none; margin: 10px 0; padding: 0; }
+.smallview{ display: block; }
+.largeview{ display: none;}
+.contact-wrapper .contact-inner-portion .right-portion form { flex-direction: column; }
+.contact-wrapper .contact-inner-portion .right-portion .form-divition { width: 100%; box-sizing: border-box;}
+.contact-wrapper .contact-inner-portion .right-portion .cns_header { text-align: center; }
+.footer-wrapper .linkwra a { margin: 4px 10px; }
+}
+@media screen and (max-width: 420px){
+
+.top-banner-wrapper .logo-wrapper img{ max-width: 100%; }
+.container-fluid { padding-top: 72%; }
+ .content-text { font-size: 26px; text-align: center;}
+.title-part h2 span { font-size: 30px; }
+.title-part h2 { font-size: 28px; }
+.contact-wrapper .contact-inner-portion .right-portion .form-divition button { width: 140px; padding: 5px 14px; }
+}
